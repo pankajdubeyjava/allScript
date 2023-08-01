@@ -1,3 +1,7 @@
+Host *
+HostkeyAlgorithms +ssh-dss
+PubkeyAcceptedKeyTypes +ssh-dss
+
 Host adt2 
     HostName ipdenahai      
     User usenamedenahai
